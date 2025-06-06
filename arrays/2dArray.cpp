@@ -28,5 +28,7 @@ int main(){
     cout<< arr[2][0]<< endl;
     cout<< arr[1][0]<< endl;
     cout<< arr[0][1]<< endl;
-    return 0;
+    
+
+    
 }
