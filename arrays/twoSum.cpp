@@ -2,11 +2,12 @@
 using namespace std;
 void twoSum(int a[], int n, int target){
     for(int i=0;i<n;i++){
-        for(int j=n-1; j>=0; j--){
+        for(int j=n-1; j>0; j--){
             if(a[i]+a[j] == target){
-                cout<< target;
-                break;
+                cout<< target<<endl;
+               
             }
+             break;
         }
     }
 }
@@ -27,4 +28,4 @@ int main(){
     twoSum(arr,n,target);
 
 
-}??
+}

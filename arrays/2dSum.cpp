@@ -20,7 +20,7 @@ void colWiseSum(int arr[][4], int row, int col){
         cout<< sum<< endl;
     }
 }
-int mian(){
+int main(){
     int arr[3][4]= {
         {1,2,3,4},
         {5,6,7,8},
@@ -29,5 +29,5 @@ int mian(){
     int row =3;
     int col=4;
     rowWiseSum(arr,row,col);
+    colWiseSum(arr,row,col);
 }
-{error}

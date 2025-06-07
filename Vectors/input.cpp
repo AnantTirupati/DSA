@@ -29,4 +29,5 @@ int main(){
     v.clear();
     v.push_back(69);
     print(v);
+    cout<< v.size();
 }
